@@ -1,4 +1,3 @@
-import '../styles/Postgrado.css'
 
 function Postgrado() {
     return (
