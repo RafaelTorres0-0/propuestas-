@@ -1,11 +1,13 @@
 
-import Navbar from './components/Navbar'
+import NavBar from './components/Navbar'
+import Slider from './components/Slider'
 import Postgrado from './components/Postgrado'
 function App() {
   
   return (
     <>
-    < Navbar />
+    < NavBar />
+    < Slider />
     < Postgrado/>
     </>
     )
