@@ -1,16 +1,12 @@
 
-import NavBar from './components/Navbar'
-import Slider from './components/Slider'
-import Postgrado from './components/Postgrado'
+//import Routes from './Routes';
+import Propuesta3 from "./propuesta3";
+//import Propuesta2 from "./propuesta2";
+//import Propuesta1 from "./propuesta1";
 function App() {
-  
   return (
-    <>
-    < NavBar />
-    < Slider />
-    < Postgrado/>
-    </>
-    )
+    <Propuesta3/>
+  )//<Routes />;
 }
 
-export default App
+export default App;

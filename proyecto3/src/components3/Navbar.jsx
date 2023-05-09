@@ -3,9 +3,10 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css'
+
 function NavBar() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" style={{ backgroundColor: '#015694' }}>
       <Container>
         <Navbar.Brand href="#home">Logo</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -39,6 +40,8 @@ function NavBar() {
               <NavDropdown.Item href="#action/3.1">Coordinación de Fomento</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Gestión de desarrollo de software</NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link href="#home">Otros</Nav.Link>
+            <Nav.Link href="#home">loguin/icon</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
