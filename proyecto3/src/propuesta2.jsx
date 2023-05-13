@@ -1,7 +1,11 @@
 import React from 'react';
-
+import NavbarP2 from './componentesP2/NavbarP2';
 function About() {
-  return <h1>About Page</h1>;
+  return (
+    <>
+   <NavbarP2/>
+    </>
+  )
 }
 
 export default About;

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.items{
+    display: flex;
+    justify-content: end;
+    border-right: 6px solid red;
+   
+}
+.item{
+    margin: 0.2rem;
+    
+}
+
+.inicio{
+    border: 5px solid red;
+   
+    
+}
