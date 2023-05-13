@@ -6,8 +6,8 @@ function NavbarP2() {
     <div className={styles.nav}>
       
       <div className={styles.logos}>
-          <img src="../src/assets/dcyt.png" alt="" />
-          <img src="../src/assets/UCLA-Logo.png" alt="" />
+          <img src="../src/assets/dcyt.png" alt="" className={styles.dcyt}/>
+          <img src="../src/assets/UCLA-Logo.png" alt=""  className={styles.ucla} />
         </div>
 
       <div className={styles.items}>
