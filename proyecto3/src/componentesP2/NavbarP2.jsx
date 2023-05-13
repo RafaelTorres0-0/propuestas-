@@ -4,20 +4,25 @@ import styles from "./modules/navbar.module.css";
 function NavbarP2() {
   return (
     <div className={styles.nav}>
+      
       <div className={styles.logos}>
-        <img src="" alt="" />
-        <img src="" alt="" />
-      </div>
+          <img src="../src/assets/dcyt.png" alt="" />
+          <img src="../src/assets/UCLA-Logo.png" alt="" />
+        </div>
+
       <div className={styles.items}>
-        <div className={`${styles.item} ${styles.inicio}`}>Inicio</div>
-        <div className={styles.item}>Carreras</div>
-        <div className={styles.item}>Postgrados</div>
-        <div className={styles.item}>Servicios</div>
-        <div className={styles.item}>Cursos</div>
-        <div className={styles.item}>Otros</div>
-      </div>
-      <div className={styles.perfil}>
-        <img src="" alt="" />
+        
+
+        <button className={`${styles.item} ${styles.inicio}`}>Inicio</button>
+        <button className={styles.item}>Carreras</button>
+        <button className={styles.item}>Postgrados</button>
+        <button className={styles.item}>Servicios</button>
+        <button className={styles.item}>Cursos</button>
+        <button className={styles.item}>Otros</button>
+        <div className={styles.barra}></div>
+        <button className={styles.perfil}>
+          <img src="../src/assets/icon-perfil.png" alt="perfil" />
+        </button>
       </div>
     </div>
   );
