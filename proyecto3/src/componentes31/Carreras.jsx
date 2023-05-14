@@ -1,148 +1,79 @@
 import styles from "./modules/car.module.css";
-import React from "react";
 function Carreras() {
   return (
-    <div className={styles.wrapper}>
-      <h1>Parallax Flipping Cards</h1>
-      <div className={styles.cols}>
-        <div
-          className={styles.col}
-          onTouchStart="this.classNameList.toggle('hover');">
-          <div className={styles.container}>
-            <div
-              className={styles.front}
-              style={{ backgroundImage: "url(../../src/assets/Group.png)" }}>
-              <div className={styles.inner}>
-                <p>Diligord</p>
-                <span>Lorem ipsum</span>
-              </div>
+    <div className={styles.body}>
+      <h4>Carreras</h4>
+      <div className={styles.container}>
+        <div className={styles.flipCard}>
+          <div className={styles.flipCardInner}>
+            <div className={`${styles.flipCardFront} ${styles.card}`} >
+              <h1>Analisis de Sistemas</h1>
+              <img src="../src/assets/dcyt.png" alt="Avatar" style={{ width: 300, height: 300 }} />
             </div>
-            <div className={styles.back}>
-              <div className={styles.inner}>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Alias cum repellat velit quae suscipit c.
-                </p>
-              </div>
+            <div className={styles.flipCardBack}>
+              <h1>Jon Doe</h1>
+            </div>
+          </div>
+        </div>
+        <div className={styles.flipCard}>
+          <div className={styles.flipCardInner}>
+            <div className={`${styles.flipCardFront} ${styles.card}`}>
+              <h1>Ingenieria Informatica</h1>
+              <img src="../src/assets/dcyt.png" alt="Avatar" style={{ width: 300, height: 300 }} />
+            </div>
+            <div className={styles.flipCardBack}>
+              <h1>John Doe</h1>
+            </div>
+          </div>
+        </div>
+        <div className={styles.flipCard}>
+          <div className={styles.flipCardInner}>
+            <div className={`${styles.flipCardFront} ${styles.card}`}>
+              <h1>Ingenieria en Produccion</h1>
+              <img src="../src/assets/dcyt.png" alt="Avatar" style={{ width: 300, height: 300 }} />
+            </div>
+            <div className={styles.flipCardBack}>
+              <h1>John Doe</h1>
             </div>
           </div>
         </div>
       </div>
-
-
-      <div className={styles.cols}>
-        <div
-          className={styles.col}
-          onTouchStart="this.classNameList.toggle('hover');">
-          <div className={styles.container}>
-            <div
-              className={styles.front}
-              style={{ backgroundImage: "url(../../src/assets/Group.png)" }}>
-              <div className={styles.inner}>
-                <p>Diligord</p>
-                <span>Lorem ipsum</span>
-              </div>
+      <br />
+      <div className={styles.container}>
+        <div className={styles.flipCard}>
+          <div className={styles.flipCardInner}>
+            <div className={`${styles.flipCardFront} ${styles.card}`}>
+              <h1>Ingenieria en Telematica</h1>
+              <img src="../src/assets/dcyt.png" alt="Avatar" style={{ width: 300, height: 300 }} />
             </div>
-            <div className={styles.back}>
-              <div className={styles.inner}>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Alias cum repellat velit quae suscipit c.
-                </p>
-              </div>
+            <div className={styles.flipCardBack}>
+            <h1>John Doe</h1>
+            </div>
+          </div>
+        </div>
+        <div className={styles.flipCard}>
+          <div className={styles.flipCardInner}>
+            <div className={`${styles.flipCardFront} ${styles.card}`}>
+            <h1>Licenciatura en Fisica</h1>
+              <img src="../src/assets/dcyt.png" alt="Avatar" style={{ width: 300, height: 300 }} />
+            </div>
+            <div className={styles.flipCardBack}>
+              <h1>John Doe</h1>
+            </div>
+          </div>
+        </div>
+        <div className={styles.flipCard}>
+          <div className={styles.flipCardInner}>
+            <div className={`${styles.flipCardFront} ${styles.card}`}>
+            <h1>Licenciatura en Matematicas</h1>
+              <img src="../src/assets/dcyt.png" alt="Avatar" style={{ width: 300, height: 300 }} />
+            </div>
+            <div className={styles.flipCardBack}>
+              <h1>John Doe</h1>
             </div>
           </div>
         </div>
       </div>
-
-
-
-
-      <div className={styles.cols}>
-        <div
-          className={styles.col}
-          onTouchStart="this.classNameList.toggle('hover');">
-          <div className={styles.container}>
-            <div
-              className={styles.front}
-              style={{ backgroundImage: "url(../../src/assets/Group.png)" }}>
-              <div className={styles.inner}>
-                <p>Diligord</p>
-                <span>Lorem ipsum</span>
-              </div>
-            </div>
-            <div className={styles.back}>
-              <div className={styles.inner}>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Alias cum repellat velit quae suscipit c.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-
-      <div className={styles.cols}>
-        <div
-          className={styles.col}
-          onTouchStart="this.classNameList.toggle('hover');">
-          <div className={styles.container}>
-            <div
-              className={styles.front}
-              style={{ backgroundImage: "url(../../src/assets/Group.png)" }}>
-              <div className={styles.inner}>
-                <p>Diligord</p>
-                <span>Lorem ipsum</span>
-              </div>
-            </div>
-            <div className={styles.back}>
-              <div className={styles.inner}>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Alias cum repellat velit quae suscipit c.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-
-
-      <div className={styles.cols}>
-        <div
-          className={styles.col}
-          onTouchStart="this.classNameList.toggle('hover');">
-          <div className={styles.container}>
-            <div
-              className={styles.front}
-              style={{ backgroundImage: "url(../../src/assets/Group.png)" }}>
-              <div className={styles.inner}>
-                <p>Diligord</p>
-                <span>Lorem ipsum</span>
-              </div>
-            </div>
-            <div className={styles.back}>
-              <div className={styles.inner}>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Alias cum repellat velit quae suscipit c.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      
-
     </div>
   );
 }

@@ -1,13 +1,13 @@
-
-//import Navbar from "./componentes31/Navbar";
-//import Carrousel from "./componentes31/Carrousel";
+import Carrousel from "./componentes31/Carrousel";
 import Carreras from "./componentes31/Carreras";
+import NavBar from "./componentes31/Navbar";
 
 function Propuesta31() {
     return (
         <>
-       
-        <Carreras />
+            <NavBar />
+            <Carrousel />
+            <Carreras />
         </>
     )
 }
