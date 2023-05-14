@@ -5,9 +5,10 @@ import Carreras from "./componentes31/Carreras";
 
 function Propuesta31() {
     return (
-        <div>
-            <Carreras />
-        </div>
+        <>
+       
+        <Carreras />
+        </>
     )
 }
 

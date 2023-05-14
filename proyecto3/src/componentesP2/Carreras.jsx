@@ -8,35 +8,35 @@ function Carreras() {
       <p>CARRERAS</p>
       </div>
       <div className={styles.items}>
-        <div className={styles.item}>
+        <button className={styles.item}>
           <img src="../src/assets/dcyt.png" alt="" />
           <div className={styles.carrera}>Analisis de Sistemas</div>
-        </div>
+        </button>
 
-        <div className={styles.item}>
+        <button className={styles.item}>
           <img src="../src/assets/dcyt.png" alt="" />
           <div className={styles.carrera}>Ingeniería en Informática</div>
-        </div>
+        </button>
 
-        <div className={styles.item}>
+        <button className={styles.item}>
           <img src="../src/assets/dcyt.png" alt="" />
           <div className={styles.carrera}>Ingeniería en Producción</div>
-        </div>
+        </button>
 
-        <div className={styles.item}>
+        <button className={styles.item}>
           <img src="../src/assets/dcyt.png" alt="" />
           <div className={styles.carrera}>Ingeniería Telemática</div>
-        </div>
+        </button>
 
-        <div className={styles.item}>
+        <button className={styles.item}>
           <img src="../src/assets/dcyt.png" alt="" />
           <div className={styles.carrera}>Licenciatura en Física</div>
-        </div>
+        </button>
 
-        <div className={styles.item}>
+        <button className={styles.item}>
           <img src="../src/assets/dcyt.png" alt="" />
           <div className={styles.carrera}>Licenciatura en Matemáticas</div>
-        </div>
+        </button>
       </div>
     </div>
   );
