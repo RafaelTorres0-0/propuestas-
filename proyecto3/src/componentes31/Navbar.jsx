@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 function NavBar() {
   return (
-    <Navbar expand="lg" style={{ backgroundColor: '#035795' }} variant="dark">
+    <Navbar expand="lg" className='sticky-top' style={{ backgroundColor: '#035795' }} variant="dark">
       <Container>
         <Navbar.Brand href="#home">Logo</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

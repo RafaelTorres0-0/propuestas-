@@ -6,19 +6,19 @@ const Servicios = () => {
     const cardsData = [
         {
             title: "SEDUCLA",
-            imageSrc: "../src/assets/seducla.png",
+            imageSrc: "../src/assets/foto-principal.png",
         },
         {
             title: "BIBCyT",
-            imageSrc: "../src/assets/bibcyt.png",
+            imageSrc: "../src/assets/foto-principal.png",
         },
         {
             title: "CTIC",
-            imageSrc: "../src/assets/ctic.png",
+            imageSrc: "../src/assets/foto-principal.png",
         },
         {
             title: "Registro Académico",
-            imageSrc: "../src/assets/registro.png",
+            imageSrc: "../src/assets/foto-principal.png",
         },
     ];
 

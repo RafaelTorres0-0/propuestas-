@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    
+  }
+  .container{
+    margin-top: 50px;
+    
+
+    width: 80%;
+    margin: 30px auto;
+    /* background-color: #fff;*/
+    border: 1px solid transparent;
+    background-image: linear-gradient(#015694, #015694),
+                      linear-gradient(#015694, #015694),
+                      linear-gradient(#015694, #015694),
+                      linear-gradient(#015694, #015694);           
+    background-repeat: no-repeat;
+    background-size: 2px 38%, 5% 2px, 2px 38%, 5% 2px, calc(100% - 8px) calc(100% - 8px);
+    background-position: right bottom, right bottom, left top, left top, 4px 4px;
+   /*  padding: 10px; */
+    
+
+  }
+  
+  .items{
+    display: flex;
+    flex-wrap:wrap;
+    column-gap: 0.5rem;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 10px;
+
+
+    
+    
+  }
+ 
+  .item{
+   
+    margin-top: 20px;
+    width: 100px;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .nombre{
+    align-items: end;
+    font-size: 13px;
+  }
+
+  .item img {
+    width: 30px;
+    position: relative;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .consejo{
+    width: 200px;
+  }
