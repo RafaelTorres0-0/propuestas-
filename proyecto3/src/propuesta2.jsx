@@ -6,6 +6,8 @@ import Carreras from './componentesP2/Carreras';
 import Postgrado from './componentesP2/Postgrado';
 import Servicio from './componentesP2/Servicio';
 import Diplomado from './componentesP2/Diplomado';
+import Otros from './componentesP2/Otros';
+
 function About() {
   return (
     <>
@@ -16,6 +18,7 @@ function About() {
    <Postgrado/>
    <Servicio/>
    <Diplomado/>
+   <Otros/>
     </>
   )
 }

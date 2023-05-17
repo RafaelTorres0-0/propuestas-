@@ -1,7 +1,14 @@
 
-.carousel-container {
+.my-carousel .carousel-container {
   position: relative;
   margin-top: 200px;
+}
+
+.pa {
+  font-size: 10px; 
+  align-items: center;
+  font-weight: 500;
+  font-family: sans-serif;
 }
 
 .my-carousel .carousel-control-prev {
@@ -25,12 +32,16 @@
   filter: invert(100%);
 }
 
+.my-carousel .pa{
+  font-size: 10px;
+}
+
 @media (max-width: 576px) {
-  .carousel-control-prev {
-    left: 10px;
+  .my-carousel  .carousel-control-prev {
+    left: 0px;
   }
 
-  .carousel-control-next {
-    right: 10px;
+  .my-carousel .carousel-control-next {
+    right: 0px;
   }
 }
