@@ -11,7 +11,11 @@ function Carreras() {
               <img src="../src/assets/dcyt.png" alt="Avatar" style={{ width: 300, height: 300 }} />
             </div>
             <div className={styles.flipCardBack}>
-              <h1>Jon Doe</h1>
+              <h2><a href="#InfoAnalisis">Info</a></h2>
+              <hr />
+              <h2><a href="#PensulAnalisis">Pemsul</a></h2>
+              <hr/>
+              <h2><a href="#OthersAnalisis">others</a></h2>
             </div>
           </div>
         </div>
@@ -22,7 +26,11 @@ function Carreras() {
               <img src="../src/assets/dcyt.png" alt="Avatar" style={{ width: 300, height: 300 }} />
             </div>
             <div className={styles.flipCardBack}>
-              <h1>John Doe</h1>
+              <h4><a href="#InfoInformatica">Info</a></h4>
+              <hr />
+              <h2><a href="#PensulInformatica">Pemsul</a></h2>
+              <hr/>
+              <h2><a href="#OthersInformatica">others</a></h2>
             </div>
           </div>
         </div>
@@ -33,7 +41,11 @@ function Carreras() {
               <img src="../src/assets/dcyt.png" alt="Avatar" style={{ width: 300, height: 300 }} />
             </div>
             <div className={styles.flipCardBack}>
-              <h1>John Doe</h1>
+              <h4><a href="#InfoProduccion">Info</a></h4>
+              <hr />
+              <h2><a href="#PensulProduccion">Pemsul</a></h2>
+              <hr/>
+              <h2><a href="#OthersProduccion">others</a></h2>
             </div>
           </div>
         </div>
@@ -47,7 +59,11 @@ function Carreras() {
               <img src="../src/assets/dcyt.png" alt="Avatar" style={{ width: 300, height: 300 }} />
             </div>
             <div className={styles.flipCardBack}>
-            <h1>John Doe</h1>
+              <h4><a href="#InfoTelematica">Info</a></h4>
+              <hr />
+              <h2><a href="#PensulTelematica">Pemsul</a></h2>
+              <hr/>
+              <h2><a href="#OthersTelematica">others</a></h2>
             </div>
           </div>
         </div>
@@ -58,7 +74,11 @@ function Carreras() {
               <img src="../src/assets/dcyt.png" alt="Avatar" style={{ width: 300, height: 300 }} />
             </div>
             <div className={styles.flipCardBack}>
-              <h1>John Doe</h1>
+              <h4><a href="#InfoFisica">Info</a></h4>
+              <hr />
+              <h2><a href="#PensulFisica">Pemsul</a></h2>
+              <hr/>
+              <h2><a href="#OthersFisica">others</a></h2>
             </div>
           </div>
         </div>
@@ -69,7 +89,11 @@ function Carreras() {
               <img src="../src/assets/dcyt.png" alt="Avatar" style={{ width: 300, height: 300 }} />
             </div>
             <div className={styles.flipCardBack}>
-              <h1>John Doe</h1>
+              <h4><a href="#InfoAnalisis">Info</a></h4>
+              <hr />
+              <h2><a href="#PensulAnalisis">Pemsul</a></h2>
+              <hr/>
+              <h2><a href="#OthersAnalisis">others</a></h2>
             </div>
           </div>
         </div>
