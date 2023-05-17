@@ -23,6 +23,9 @@ function NavbarP2() {
         <button className={styles.perfil}>
           <img src="../src/assets/icon-perfil.png" alt="perfil" />
         </button>
+        <button class="menu-btn">
+        <button class="menu-btn">&#9776;</button>
+        </button>
       </div>
     </div>
   );

@@ -1,0 +1,36 @@
+
+.carousel-container {
+  position: relative;
+  margin-top: 200px;
+}
+
+.my-carousel .carousel-control-prev {
+  left: -120px;
+}
+
+.my-carousel .carousel-control-next {
+  right: -120px;
+}
+
+.my-carousel .carousel-item::before {
+  display: none;
+}
+
+.my-carousel .carousel-indicators {
+  display: none;
+}
+
+.my-carousel .carousel-control-prev-icon,
+.my-carousel .carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+@media (max-width: 576px) {
+  .carousel-control-prev {
+    left: 10px;
+  }
+
+  .carousel-control-next {
+    right: 10px;
+  }
+}

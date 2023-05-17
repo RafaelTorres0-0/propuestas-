@@ -71,3 +71,68 @@ button {
   width: 45px;
   height: auto;
 }
+
+
+@media (max-width: 768px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .items {
+    display: none;
+  }
+  
+  .menu-btn::after {
+    content: '\0026';
+    font-size: 20px;
+  }
+  
+  .items.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 2;
+    border: 1px solid #eee;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .nav{
+    display: flex;
+    flex-direction:column;
+  }
+  .logos {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .logos img {
+    width: 50%;
+  }
+  .items .item {
+    width: 100%;
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  .items {
+    display: flex;
+    justify-content: space-between;
+  }
+  .barra {
+    display: none;
+  }
+  .menu-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+}
