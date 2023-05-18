@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  .container{
+    width: 100%;
+    background-color: black;
+  }
+  .redes{
+    display: flex;
+    
+  }
