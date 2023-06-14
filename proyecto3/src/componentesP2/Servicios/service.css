@@ -1,0 +1,65 @@
+.se-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 8rem;
+  max-width: 1536px;
+  margin: 0 auto;
+  background: #015694;
+}
+
+.se-titulo {
+  border-bottom: 3px solid white;
+  color: white;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.se-color {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0;
+}
+.se-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+ 
+}
+
+
+.se-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 110px;
+  background-color: white;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-right: 4rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  font-weight: 700;
+  transition: all 300ms ease-in;
+}
+
+.se-item:hover {
+  cursor: pointer;
+  scale: 1.03;
+}
+
+
+.se-item > span {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}

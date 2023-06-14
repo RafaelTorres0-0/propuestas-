@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: 0;
+}
+
+.n-wrapper {
+  color: white;
+  background: #015694;
+}
+
+.innerWhidth {
+  width: 100%;
+}
+
+.n-container {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 1536px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.n-items {
+  
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+
+.n-items > button {
+  background: transparent;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.n-items > :nth-child(1) {
+ 
+  border: 2px solid white;
+  padding: 5px 10px 5px 10px;
+  transition: all 300ms ease-in;
+}
+.n-items > .n-item:nth-child(1):hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.n-barra {
+  border-left: 1px solid white;
+  height: 50px;
+}
+
+.n-logos {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.n-logos > img:first-child {
+  width: 70px;
+}
+.n-logos > img:last-child {
+  width: 50px;
+}
+.n-perfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.n-perfil > img {
+  width: 35px;
+}
+
+.n-item {
+  position: relative;
+  line-height: 2;
+}
+
+.n-item>button {
+  position: relative;
+  background-color: transparent;
+  line-height: 2;
+  color: #fff;
+}
+
+
+.n-color:before {
+  position: absolute;
+  bottom: 0;
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background-color: #fff;
+  transition: all 0.3s;
+}
+
+.n-color:hover:before {
+  width: 100%;
+}
+
+.n-color:before {
+  left: 50%;
+}
+.n-color:hover:before {
+  left: 0;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .n-items {
+    
+    position: absolute;
+    right: 5rem;
+    top: 1rem;
+    
+    z-index: 1;
+   gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 300px;
+    padding: 3rem;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.05);
+    transition: all 300ms ease-in;
+    
+    z-index: 9999;
+  }
+  .n-item>button {
+   
+    color: #015694;
+    background: transparent;
+  }
+  .n-barra {
+    display: none;
+  }
+
+  .n-perfil {
+    display: none;
+  }
+}

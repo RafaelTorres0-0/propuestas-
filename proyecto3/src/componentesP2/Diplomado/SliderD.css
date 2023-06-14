@@ -1,0 +1,119 @@
+.d-wrapper {
+  display: flex;
+  position: relative;
+  margin-top: 9.2rem;
+  height: 300px;
+}
+
+.d-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #015694;
+  border-bottom: 3px solid #015694;
+}
+.d-container {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1530px;
+  margin: 0 auto;
+}
+.d-mySwiper {
+  margin-top: 1.5rem;
+  width: 700px;
+  height: 260px;
+}
+
+.d-swipperS {
+  width: 500px;
+  height: 500px;
+}
+
+.d-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.d-card > img {
+  width: 250px;
+  height: 150px;
+  background-color: #fff;
+}
+
+.r-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 800px;
+  top: 3rem;
+  right: -4rem;
+  margin: 15px;
+  gap: 30rem;
+  background-color: transparent;
+
+  z-index: 1;
+}
+
+.r-buttons button {
+  font-size: 1.2rem;
+  padding: 0.1rem 0.5rem;
+  color: #015694;
+  border: 2px solid #015694;
+}
+
+.d-descripcion {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 10rem;
+  gap: 1rem;
+  color: #015694;
+  font-size: 15px;
+  font-weight: 700;
+  z-index: 1;
+  width: 250px;
+}
+
+@media (max-width: 800px) {
+  .r-buttons {
+    gap: 10rem;
+    width: 250px;
+
+    right: 2.2rem;
+  }
+
+  .d-mySwiper {
+    width: 500px;
+    height: 160px;
+  }
+  .d-container {
+   
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  div.d-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 410px;
+    height: 300px;
+  }
+
+
+
+  div.swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden.d-mySwiper{
+    width: 350px;
+    height: 350px;
+  }
+
+  
+.d-descripcion {
+  
+}
+
+}

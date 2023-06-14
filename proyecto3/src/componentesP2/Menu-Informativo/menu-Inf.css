@@ -1,0 +1,146 @@
+.m-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  position: relative;
+
+}
+
+.m-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.m-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 110px;
+}
+
+.m-item > button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 100px;
+  transition: all 300ms ease-in;
+  cursor: pointer;
+  background: transparent;
+}
+
+.m-item > button:hover {
+  scale: 1.1;
+}
+
+.m-item > button > img {
+  width: 50px;
+}
+
+.m-item > button > span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.m-direcciones {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.m-barras1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin: 3px auto;
+ bottom: 10px;
+ left: 10px;
+  /* background-color: #fff;*/
+  border: 5px solid transparent;
+  background-image: linear-gradient(#015694, #015694),
+    linear-gradient(#015694, #015694), linear-gradient(#015694, #015694),
+    linear-gradient(#015694, #015694);
+  background-repeat: no-repeat;
+  background-size: 2px 0%, 0% 2px, 2px 50%, 60% 2px,
+    calc(100% - 8px) calc(100% - 8px);
+  background-position: right bottom, right bottom, left top, left top, 4px 4px;
+}
+
+.m-barras2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin: 3px auto;
+  top: 15px;
+  left: 70px;
+  /* background-color: #fff;*/
+  border: 5px solid transparent;
+  background-image: linear-gradient(#015694, #015694),
+    linear-gradient(#015694, #015694), linear-gradient(#015694, #015694),
+    linear-gradient(#015694, #015694);
+  background-repeat: no-repeat;
+  background-size: 2px 50%, 60% 2px, 2px 0%, 00% 2px,
+    calc(100% - 8px) calc(100% - 8px);
+  background-position: right bottom, right bottom, left top, left top, 4px 4px;
+}
+
+@media (max-width: 1100px) {
+  .m-item > button > img {
+    width: 30px;
+  }
+
+  .m-item {
+    display: flex;
+    align-items: center;
+    width: 120px;
+
+  }
+
+  .m-item > button > span {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+
+
+  .m-barras2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin: 3px auto;
+    top: 15px;
+    left: 20px;
+    /* background-color: #fff;*/
+    border: 5px solid transparent;
+    background-image: linear-gradient(#015694, #015694),
+      linear-gradient(#015694, #015694), linear-gradient(#015694, #015694),
+      linear-gradient(#015694, #015694);
+    background-repeat: no-repeat;
+    background-size: 2px 50%, 60% 2px, 2px 0%, 00% 2px,
+      calc(100% - 8px) calc(100% - 8px);
+    background-position: right bottom, right bottom, left top, left top, 4px 4px;
+  }
+
+
+}
+
+@media (min-width: 1100px) {
+  .m-item > button > img {
+    width: 45px;
+  }
+
+  .m-item {
+    display: flex;
+    align-items: center;
+    width: 200px;
+  }
+
+  .m-item > button > span {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}

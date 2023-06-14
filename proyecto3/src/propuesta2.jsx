@@ -1,13 +1,14 @@
 import React from 'react';
-import NavbarP2 from './componentesP2/NavbarP2';
-import SliderP2 from './componentesP2/sliderP2';
-import MenuInfo from './componentesP2/MenuInfo';
-import Carreras from './componentesP2/Carreras';
-import Postgrado from './componentesP2/Postgrado';
-import Servicio from './componentesP2/Servicio';
-import Diplomado from './componentesP2/Diplomado';
-import Otros from './componentesP2/Otros';
-import FooterP from './componentesP2/FooterP';
+import NavbarP2 from './componentesP2/Navbar/NavbarP2';
+import SliderP2 from './componentesP2/Slider-Principal/SliderP2';
+import MenuInfo from './componentesP2/Menu-Informativo/MenuInfo';
+import Carreras from './componentesP2/Carerras/Carreras';
+import Postgrado from './componentesP2/Postgrado/Postgrado';
+import Servicio from './componentesP2/Servicios/Servicio';
+import Diplomado from './componentesP2/Diplomado/Diplomado';
+import Otros from './componentesP2/Otros/Otros';
+import FooterP from './componentesP2/Footer/FooterP'
+
 
 function About() {
   return (
