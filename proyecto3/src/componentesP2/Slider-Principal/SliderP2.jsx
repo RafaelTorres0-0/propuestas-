@@ -14,17 +14,18 @@ function SliderP2() {
         >
           <SwiperSlide>
             <div className="s-card">
-              <img src="../src/assets/foto-principal.png" alt="" />
+            <img src="../src/assets/decanato/decanato.jpg" alt="" /> 
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="s-card">
-              <img src="../src/assets/foto-principal.png" alt="" />
+            <img src="../src/assets/decanato/diadelestudiante.jpg" alt="" /> 
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="s-card">
-              <img src="../src/assets/foto-principal.png" alt="" />
+             
+            <img src="../src/assets/decanato/graduando.jpeg" alt="" />
             </div>
           </SwiperSlide>
           <SwiperSlide>
